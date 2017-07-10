@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>groceries</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src = "script.js"></script>
+    <div class = "bigContainer">
+      <div class = "header">
+        <h1>GROCERIES!!!</h1>
+      </div>
+      <div class = "input">
+        <!-- <select id = "itemName">
+          <option value = "select">select item</option>
+          <option value = "apple">apple</option>
+          <option value = "t-shirt">t-shirt</option>
+          <option value = "watermelon">watermelon</option>
+          <option value = "spray paint">spray paint</option>
+          <option value = "strawberries">strawberries</option>
+        </select>
+        <input type="number" size ="5" placeholder="Item Quantity" id="itemQuan">
+        <button type="button" id="addButton" onclick="addItem()" >Add to cart</button> -->
+        <input type="text" placeholder="item name" id="itemName">
+        <input type="number" placeholder="item price" id="itemPrice">
+        <input type="number" placeholder="item quantity" id="itemQuan">
+        <button type="button" id="addButton" onclick="addItem()" >Add to cart</button>
+      </div>
+      <div class = "cart">
+        <table id="cartList">
+          <tr>
+            <th scope="col">item name    </th>
+            <th scope="col">item price   </th>
+            <th scope="col">item quantity</th>
+            <th scope="col">item total   </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

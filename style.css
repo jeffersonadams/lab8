@@ -1,0 +1,62 @@
+.bigContainer {
+  height: 800px;
+  width: 700px;
+  background-color: #d9e9ff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.header {
+  height: 200px;
+  width: 100%;
+  background-image: url(http://nitaltrading.com/wp-content/uploads/2013/12/groceries_banner.jpg);
+  text-align: center;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-top: 50px;
+  color: white;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
+h1{
+    transform: rotate(-7deg);
+}
+.input{
+  height: 60px;
+  width: 90%;
+  background-color: grey;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.cart{
+  background-color: lightgrey;
+  width: 75%;
+  height: 400px;
+  margin: auto;
+  margin-top: 15px;
+}
+#addButton{
+  float: right;
+  margin-right: 1%;
+  margin-top: 20px;
+}
+#itemName{
+  margin-left: 1%;
+  margin-top: 20px;
+}
+#itemQuan{
+  margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+#cartList{
+  margin-left: auto;
+  margin-right: auto;
+}
+.printCartTotal{
+  text-align: center;
+}
